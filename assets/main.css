@@ -1,0 +1,349 @@
+@import url(native.css);
+body {
+  margin: 0;
+  padding-top: 40px;
+  font-family: 'Aleo';
+  line-height: 1.4em;
+  font-size: 0.9em;
+  background-color: rgb(238, 118, 47); /* Added background color */
+}
+
+
+#bgsketchcanvas {
+  position: absolute;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+#content {
+  width: 100%;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 540px) {
+  .main-wrapper {
+    padding-left: 10px;
+    padding-right: 10px; } }
+#checkboxesheadline {
+  font-size: 0.7em;
+  line-height: 1.3em; }
+
+#bgsketchnote {
+  font-family: "Aleo Italic";
+  font-size: 0.7em;
+  line-height: 1.3em; }
+
+.mtop5 {
+  margin-top: 5px; }
+
+.mbottom100 {
+  margin-bottom: 100px; }
+
+p {
+  margin: 0; }
+
+b {
+  font-family: "Aleo Bold"; }
+
+i {
+  font-family: "Aleo Italic"; }
+
+.blue {
+  color: blue; }
+
+.red {
+  color: red; }
+
+.my-name {
+  padding-left: 2px;
+  margin-right: 1.5px; }
+
+.white-on-black {
+  color: white;
+  background-color: black; }
+
+h3 {
+  margin: 0px;
+  font-size: 1.1em;
+  margin-top: 40px;
+  margin-bottom: 17px;
+  float: left;
+  padding-left: 3px;
+  padding-right: 2px; }
+
+h4 {
+  margin: 1px;
+  font-size: 1em;
+  font-weight: normal; }
+
+.text-intend {
+  margin-left: 10px; }
+
+a {
+  text-decoration: none; }
+
+a:link {
+  color: black; }
+
+a:visited {
+  color: black; }
+
+a:active {
+  color: black; }
+
+a:hover {
+  color: black; }
+
+.clearfix {
+  clear: both; }
+
+.link-underline {
+  text-decoration: underline; }
+
+.link-underline:hover {
+  text-decoration: none; }
+
+.back-to-main-link-wrapper {
+  text-align: right;
+  margin-bottom: 10px; }
+
+.back-to-blog-link-wrapper {
+  text-align: right;
+  margin-bottom: 40px; }
+
+.back-to-projects-link-wrapper {
+  text-align: right;
+  margin-bottom: 40px; }
+
+.back-to-link {
+  font-family: "Aleo";
+  font-size: 0.8em;
+  text-decoration: underline; }
+
+.back-to-top-link-wrapper {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  text-align: right; }
+
+.more-text-wrapper {
+  margin-top: 5px;
+  font-family: "Aleo";
+  font-size: 0.9em;
+  border-left: 1px black; }
+
+.more-button {
+  text-decoration: underline; }
+
+.more-text {
+  margin-top: 5px; }
+
+.about-image {
+  width: 220px; }
+
+.post-listing {
+  margin-top: 13px;
+  font-size: 0.9em;
+  margin-left: 10px; }
+
+.post-title {
+  font-family: "Aleo Bold";
+  margin-right: 5px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  margin: 0; }
+
+.link-to-all-wrapper {
+  margin-top: 21px; }
+
+.link-to-all {
+  font-size: 1.15em; }
+
+.post-page-title {
+  font-size: 1.9em;
+  font-family: "Aleo Bold";
+  margin-bottom: 30px;
+  line-height: 1em; }
+
+.post-page-content {
+  padding-top: 0px; }
+
+.photoalbum-photo-wrapper {
+  margin-top: 100px; }
+
+.photoalbum-photo {
+  max-width: 100%;
+  max-height: 800px; }
+
+.photoalbum-photo-title {
+  font-family: "Aleo";
+  font-size: 0.8em;
+  margin-top: 10px; }
+
+.project-year {
+  font-size: 0.9em; }
+
+.project-keywords {
+  font-size: 0.9em;
+  text-align: right;
+  float: right; }
+
+.all-projects-post-listing {
+  margin-top: 80px;
+  font-size: 0.9em; }
+
+.all-projects-cover-wrapper {
+  margin-top: 15px;
+  display: flex;             /* Use flexbox for centering */
+  justify-content: center;   /* Center image horizontally */
+  align-items: center;       /* Center image vertically */
+  width: 100%; }
+
+.all-projects-cover {
+  max-width: 100%;
+  max-height: 800px; }
+
+.all-projects-post-description {
+  font-size: 1.1em; }
+
+.all-projects-post-title {
+  font-family: "Aleo Bold";
+  margin-right: 5px;
+  font-size: 1.2em;
+  padding-left: 3px;
+  padding-right: 2px; }
+
+.all-projects-post-description-wrapper {
+  margin-top: 2px; }
+
+.all-blog-post-listing {
+  margin-top: 80px;
+  font-size: 0.9em; }
+
+.all-blog-cover-wrapper {
+  margin-top: 15px; }
+
+.all-blog-cover {
+  max-width: 100%;
+  max-height: 800px; }
+
+.all-blog-post-title {
+  font-family: "Aleo Bold";
+  margin-right: 5px;
+  font-size: 1.2em;
+  padding-left: 3px;
+  padding-right: 2px; }
+
+.all-blog-post-description-wrapper {
+  margin-top: 10px; }
+
+.all-blog-post-date-wrapper {
+  margin-top: 10px; }
+
+.all-blog-post-date {
+  font-size: 0.8em; }
+
+.project-page-content {
+  margin-top: 60px; }
+
+.project-image {
+  max-width: 100%;
+  max-height: 800px; }
+
+.project-image-title {
+  font-size: 0.8em;
+  font-family: "Aleo Italic"; }
+
+.iframe_wrapper_youtube {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+
+.iframe_wrapper_youtube_portrait {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  height: 0; }
+
+.youtube_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.custom_iframe_wrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative; }
+
+.custom_iframe {
+  border: solid 1px black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; }
+
+.script-caption {
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  font-size: 0.8em;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -12px;
+  text-align: right; }
+
+@-webkit-keyframes quarterRotate {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  1% {
+    -webkit-transform: rotate(-20deg); }
+  4% {
+    -webkit-transform: rotate(470deg); }
+  5% {
+    -webkit-transform: rotate(450deg); }
+  25% {
+    -webkit-transform: rotate(450deg); }
+  26% {
+    -webkit-transform: rotate(430deg); }
+  29% {
+    -webkit-transform: rotate(920deg); }
+  30% {
+    -webkit-transform: rotate(900deg); }
+  50% {
+    -webkit-transform: rotate(900deg); }
+  51% {
+    -webkit-transform: rotate(880deg); }
+  54% {
+    -webkit-transform: rotate(1370deg); }
+  55% {
+    -webkit-transform: rotate(1350deg); }
+  75% {
+    -webkit-transform: rotate(1350deg); }
+  76% {
+    -webkit-transform: rotate(1330deg); }
+  79% {
+    -webkit-transform: rotate(1820deg); }
+  80% {
+    -webkit-transform: rotate(1800deg); }
+  100% {
+    -webkit-transform: rotate(1800deg); } }
+#checkboxesheadline {
+  -webkit-animation-name: quarterRotate;
+  -webkit-animation-duration: 8000ms;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear; }
